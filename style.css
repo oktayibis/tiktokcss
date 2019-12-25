@@ -1,0 +1,169 @@
+@font-face{
+    font-family: sofiaPro;
+    src: url(./font/sofiapro-light.otf);
+}
+
+*{
+    font-family: sofiaPro, sans-serif;
+}
+body, html{
+    width: auto;
+}
+
+img, video, audio {
+    max-width: 100%;
+}
+section{
+    margin-top: 5%;
+}
+.leftNav{
+    display: flex;
+    justify-content: flex-end;
+    width: 10%;
+    margin-left: 5%;
+}
+
+
+nav ul{
+    
+    width: 50%;
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+nav li{
+    margin-left: 10px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 2%;
+  
+}
+
+nav a:hover{
+    text-decoration: underline;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed; /* Set the navbar to fixed position */
+    top: 0; /* Position the navbar at the top of the page */
+    width: 100%; /* Full width */
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #D3DEDE;
+    padding-bottom: 1%;
+    
+  }
+
+
+
+#greyhr:before{
+    position: fixed;
+}
+
+.slogan{
+    text-align: center;
+    
+}
+.slogan h2{
+    font-size: 70px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.slogan p{
+    font-size: 20px;
+    margin: 5px 0;
+}
+
+.video{
+    display: block;
+    height: 200%;
+    padding-bottom: 1%;
+    background: black;
+    margin: 0;
+}
+
+.video img{
+    width: 100%;
+
+}
+
+footer{
+    background-color: black;
+    color: white;
+    margin-top: 0;
+    
+}
+
+.download{
+margin: 2% 10%;
+ display:inline-flex;
+ text-align: center;
+ float: left;
+ align-items: baseline;
+}
+
+.download p {
+    font-size: 10px;
+    color: lightgray;
+}
+
+.download img {
+    width: 70%;
+}
+
+.underline{
+    text-decoration: underline;
+}
+
+.stores img{
+    width: 20%;
+}
+
+#lists{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+#lists ul{
+    float: left;
+   list-style-type: none;
+   
+
+}
+
+#lists a{
+    color: lightgray;
+    text-decoration: none;
+    font-size: 13px;
+    
+}
+#lists li{
+    margin: 10px 0;
+}
+#lists a:hover{
+    text-decoration: underline;
+}
+
+#lists h3{
+    font-size: 18px;
+}
+    
+.copyRights{
+    margin: 0 10%;
+    display: flex;
+    justify-content: space-between;
+    color: lightgray;
+    font-size: 16px;
+}
+
+
+
+
